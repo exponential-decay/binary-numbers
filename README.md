@@ -10,9 +10,14 @@ but this is just a first cut to ensure everything works ok.
 To get the complete app running for yourself I recommend the excellent http://www.pythonanywhere.com service for the daily
 Cron task and amazing Python support that is letting me run PIL and the Python Twitter Tools API: http://mike.verdone.ca/twitter/
 
+###Archive
+
+Until gallery support is whitelisted at pythonanywhere.com I currently archive each picture generated to my
+pythonanywhere web page here: http://exponentialdecay.pythonanywhere.com/
+
 ###License:
 
-This app is licensed as Beerware: https://github.com/exponential-decay/binary-numbers/blob/master/license.md
+This app and it's supporting files are licensed as Beerware: https://github.com/exponential-decay/binary-numbers/blob/master/license.md
 
 ###Twitter:
 
