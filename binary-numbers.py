@@ -19,7 +19,7 @@ from PIL import Image
 from PIL import PngImagePlugin
 
 write_dir = 'image-history/'	#'/var/www/static/images/'
-write_to_file = True
+write2file = True
 
 def HEXtoRGB(colorstring):
 	#courtesy of code recipes. getrgb from PIL would be better (if it worked)
@@ -116,7 +116,7 @@ def write_to_file(output):
 
 def update_profile_pic(twitter):
 	output = create_image()
-	if write_to_file == True:
+	if write2file == True:
 		write_to_file(output)
 	profile_picture = base64.b64encode(output.getvalue())
 	twitter.account.update_profile_image(image=profile_picture)
