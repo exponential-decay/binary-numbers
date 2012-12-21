@@ -34,20 +34,22 @@ def img_tags():
     return tags
 
 def web_page():
-    header = """<!DOCTYPE html>
-    	<html lang="en-gb">
-    		<head>
-    			<meta charset="utf-8"/>
-    			<link rel="stylesheet" href="css/x.css">
-    			<title>binary-numbers by exponentialdecay.co.uk</title>
-    		</head>
-    		<body>
-    			"""
+	header = """<!DOCTYPE html>
+		<html lang="en-gb">
+				<head>
+					<meta charset="utf-8"/>
+					<meta name="author" content="Ross Spencer">
+					<meta name="description" content="Output of work to automatically update my twitter profile picture with dynamic content, code here: https://github.com/exponential-decay/binary-numbers">
+					<link rel="stylesheet" href="css/x.css">
+					<title>binary-numbers by exponentialdecay.co.uk</title>
+				</head>
+			<body>
+	"""
 
-    footer = 	"""
-    		</body>
-    	</html>
-    			"""
+	footer = 	"""
+			</body>
+		</html>
+	"""
 
     web_page = header + img_tags() + footer
     return web_page
