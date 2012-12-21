@@ -15,6 +15,9 @@ Cron task and amazing Python support that is letting me run PIL and the Python T
 Until gallery support is whitelisted at pythonanywhere.com I currently archive each picture generated to my
 pythonanywhere web page here: http://exponentialdecay.pythonanywhere.com/
 
+The WSGI I use to support this is licensed under the same terms as this app and are found in the
+'pyanywhere-wsgi/' directory.
+
 ###License:
 
 This app and it's supporting files are licensed as Beerware: https://github.com/exponential-decay/binary-numbers/blob/master/license.md
