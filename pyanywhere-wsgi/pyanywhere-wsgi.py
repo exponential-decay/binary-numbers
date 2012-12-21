@@ -39,7 +39,7 @@ def web_page():
     		<head>
     			<meta charset="utf-8"/>
     			<link rel="stylesheet" href="css/x.css">
-    			<title>binary-primes calendar by exponentialdecay.co.uk</title>
+    			<title>binary-numbers by exponentialdecay.co.uk</title>
     		</head>
     		<body>
     			"""
