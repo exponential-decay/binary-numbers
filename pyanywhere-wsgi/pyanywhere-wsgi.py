@@ -30,7 +30,7 @@ def img_tags():
     for filename in os.listdir(dir):
         file = dir + filename
         im2 = Image.open(dir + filename)
-        tags += "<img src='" + imgdir + filename + "' alt='" + im2.info['Title'] + "' height='210' width='210' />" + "\n\t\t\t"
+        tags += "<img src='" + imgdir + filename + "' title='" + im2.info['Title'] + "' alt='" + im2.info['Title'] + "' height='210' width='210' />" + "\n\t\t\t"
     return tags
 
 def web_page():
