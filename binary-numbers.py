@@ -10,6 +10,11 @@
 # 
 #
 from twitter import *
+from twitter import *
+import auth
+import oauth
+import oauth2
+import oauth_dance
 import os
 import base64
 import random
@@ -97,14 +102,14 @@ def write_metadata():
 	
 def twitter_authentication():
 	CONSUMER_KEYS = os.path.expanduser('.twitter-consumer-keys')
-	CONSUMER_KEY, CONSUMER_SECRET = read_token_file(CONSUMER_KEYS)
+	CONSUMER_KEY, CONSUMER_SECRET = oauth.read_token_file(CONSUMER_KEYS)
 
 	MY_TWITTER_CREDS = os.path.expanduser('.twitter-bin-numbers-credentials')
 	if not os.path.exists(MY_TWITTER_CREDS):
 		oauth_dance("binary-numbers", CONSUMER_KEY, CONSUMER_SECRET, MY_TWITTER_CREDS)
 
-	oauth_token, oauth_secret = read_token_file(MY_TWITTER_CREDS)
-	twitter = Twitter(auth=OAuth(oauth_token, oauth_secret, CONSUMER_KEY, CONSUMER_SECRET))
+	oauth_token, oauth_secret = oauth.read_token_file(MY_TWITTER_CREDS)
+	twitter = Twitter(auth=oauth.OAuth(oauth_token, oauth_secret, CONSUMER_KEY, CONSUMER_SECRET))
 	
 	return twitter
 
