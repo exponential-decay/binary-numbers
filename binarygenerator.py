@@ -65,27 +65,28 @@ class BinaryGenerator:
 
       hborder = hlen + 2 #2black
 
-      canvas = sum(pattern) + hborder
+      #canvas = sum(pattern) + hborder
       space = sum(pattern)
 
-      image = Image.new("RGB", (canvas, canvas))
-
       binary_int_width = 5   #zeros needed
+      #s = bin(int(self.get_date('day'))).lstrip('-0b')
       s = bin(int(self.get_date('day'))).lstrip('-0b')
       bin_val = s.rjust(binary_int_width, '0')   #binary word
 
-      negativeY = space/binary_int_width
-      
-      hxpos = hmax
+      pseudopixelsize = space/binary_int_width  #size of 'pixels' we're creating
+      canvas = (pseudopixelsize * (binary_int_width + 2))      
+      image = Image.new("RGB", (canvas, canvas))
+
+      hxpos = pseudopixelsize
       for p in pattern:
          color = self.random_color()
          for x in range(p):
-            y = hmax  
+            y = pseudopixelsize  
             for val in bin_val:           
-               for b in range(negativeY):
+               for b in range(pseudopixelsize):
                   if val == '1':   
                      image.putpixel((hxpos+x, y+b), color)
-               y = y + negativeY          
+               y = y + pseudopixelsize          
          hxpos = hxpos+p
 
       output = StringIO.StringIO()
