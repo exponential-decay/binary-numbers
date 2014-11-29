@@ -1,0 +1,20 @@
+#http://natlib.govt.nz/blog/posts/a-heritage-colour-palette
+
+NLNZ_PALETTE_RGB_VALUES = [{'NLNZ Heritage Color Palette 02':['#f6eb51','#ca6e41','#2f4c30','#bad6bb','#742935','#ab9a41','#9e292e']},
+{'NLNZ Heritage Color Palette 03':['#82616c','#a68f9b','#4f7f46','#507f6d','#695f44']},
+{'NLNZ Heritage Color Palette 04':['#545f44','#a7908d','#756052','#d2c6a3','#2a3123','#395d3b']},
+{'NLNZ Heritage Color Palette 08':['#c5a33d','#81603b','#44323b','#cfc477']},
+{'NLNZ Heritage Color Palette 09':['#c19e58','#dacb69','#a87b76','#4a3023','#635d2a']},
+{'NLNZ Heritage Color Palette 10':['#4d5f5c','#82292c','#bd3744','#1d222a','#8e9a80','#9f7055']},
+{'NLNZ Heritage Color Palette 11':['#725830','#a2814b','#a0382f','#cac084','#92707c','#3f262f']},
+{'NLNZ Heritage Color Palette 12':['#67342b','#cfd6d5','#7d4c37','#251c1f','#363f2b','#413438']},
+{'NLNZ Heritage Color Palette 13':['#9f7b49','#763441','#683435','#1d222a','#777a50','#635256']},
+{'NLNZ Heritage Color Palette 15':['#6c6845','#7d3f42','#3b1e25','#846d4b','#e1edf3','#faeeba']},
+{'NLNZ Heritage Color Palette 16':['#6b6079','#551e28','#5e5f4f','#34262d','#a38252','#ebd1a9','#69625e']},
+{'NLNZ Heritage Color Palette 18':['#7e977b','#b1b351','#763441','#363e48','#964344','#31407e']},
+{'NLNZ Heritage Color Palette 19':['#3d5d44','#618f62','#8dbc82','#2a3123','#dbc8c1']},
+{'NLNZ Heritage Color Palette 20':['#7c5039','#8aa08d','#e5f2f3','#c6a29f','#986e4b','#562822']},
+{'NLNZ Heritage Color Palette 21':['#471e26','#5d2325','#d9d9a5','#2b1c1a']},
+{'NLNZ Heritage Color Palette 22':['#63222a','#292334','#21253f','#c2af60']},
+{'NLNZ Heritage Color Palette 25':['#603b37','#97814a','#a02a37','#1d222a','#363f55','#6d685a']},
+{'NLNZ Heritage Color Palette 26':['#838b83','#424745','#b07c75','#6f7053','#475751','#513733']}] 
