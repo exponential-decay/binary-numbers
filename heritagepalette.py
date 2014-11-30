@@ -1,6 +1,7 @@
 #http://natlib.govt.nz/blog/posts/a-heritage-colour-palette
 
-NLNZ_PALETTE_RGB_VALUES = [{'NLNZ Heritage Color Palette 02':['#f6eb51','#ca6e41','#2f4c30','#bad6bb','#742935','#ab9a41','#9e292e']},
+NLNZ_PALETTE_RGB_VALUES = [{'NLNZ Heritage Color Palette 01':['e91c26','3c816e','dd8752','972220','8ba387','b79193']},
+{'NLNZ Heritage Color Palette 02':['#f6eb51','#ca6e41','#2f4c30','#bad6bb','#742935','#ab9a41','#9e292e']},
 {'NLNZ Heritage Color Palette 03':['#82616c','#a68f9b','#4f7f46','#507f6d','#695f44']},
 {'NLNZ Heritage Color Palette 04':['#545f44','#a7908d','#756052','#d2c6a3','#2a3123','#395d3b']},
 {'NLNZ Heritage Color Palette 08':['#c5a33d','#81603b','#44323b','#cfc477']},
