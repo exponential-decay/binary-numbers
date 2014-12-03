@@ -1,6 +1,7 @@
 import random
 import datetime
 import StringIO
+import random
 import heritagepalette
 import stripepatterns
 from PIL import Image
@@ -69,7 +70,6 @@ class BinaryGenerator:
       space = sum(pattern)
 
       binary_int_width = 5   #zeros needed
-      #s = bin(int(self.get_date('day'))).lstrip('-0b')
       s = bin(int(self.get_date('day'))).lstrip('-0b')
       bin_val = s.rjust(binary_int_width, '0')   #binary word
 
@@ -78,7 +78,11 @@ class BinaryGenerator:
       image = Image.new("RGB", (canvas, canvas))
 
       hxpos = pseudopixelsize
-      for p in pattern:
+
+      #randomize stripe pattern
+      pattern_new = random.sample(pattern, len(pattern))
+
+      for p in pattern_new:
          color = self.random_color()
          for x in range(p):
             y = pseudopixelsize  
