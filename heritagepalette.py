@@ -1,4 +1,6 @@
 #http://natlib.govt.nz/blog/posts/a-heritage-colour-palette
+#And on Facebook here: https://www.facebook.com/media/set/?set=a.263596350499066.1073741881.141682096023826
+#26 palettes, by Arawhetu Berdinner
 
 NLNZ_PALETTE_RGB_VALUES = [{'NLNZ Heritage Color Palette 01':['e91c26','3c816e','dd8752','972220','8ba387','b79193']},
 {'NLNZ Heritage Color Palette 02':['#f6eb51','#ca6e41','#2f4c30','#bad6bb','#742935','#ab9a41','#9e292e']},
