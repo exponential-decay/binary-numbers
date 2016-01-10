@@ -46,7 +46,7 @@ def update_profile_pic(twitter):
    if write2file == True:
       write_to_file(output, bingen)
    profile_picture = base64.b64encode(output.getvalue())
-   twitter.account.update_profile_image(image=profile_picture, _base64=True)
+   #twitter.account.update_profile_image(image=profile_picture, _base64=True)
    
 def main():
    twitter = twitter_authentication()
