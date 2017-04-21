@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 #Palette Five: Based on @CINEMAPALETTES https://twitter.com/cinemapalettes?lang=en
-NLNZ_PALETTE_RGB_VALUES = [{'Purple Rain (1984) dir. Albert Magnoli':['#020122','#000139','#02065D','#1B074D','#2B0E76','#5B166C','#962A73','#893793','#E181B9','#FFFFFF']},
+NLNZ_PALETTE_RGB_VALUES = [{'Purple Rain (1984) dir. Albert Magnoli':['#020122','#000139','#02065D','#1B074D','#2B0E76','#5B166C','#962A73','#893793','#E181B9','#FFE3DA']},
 {'500 Days of Summer (2009) dir. Marc Webb':['#302320','#4A1F18','#6B5C57','#794734','#875F28','#8B6836','#A28875','#BC6E00','#C19668','#F3DEB9']},
 {'5 Centimeters Per Second (2007) dir. Makoto Shinkai':['#221C24','#39231E','#3B4959','#453A37','#502F37','#5F7C57','#ADA077','#BE878E','#E49C71','#EEE7C0']},
 {'A Clockwork Orange (1971) dir. Stanley Kubrick':['#1C2B1F','#1F1319','#272749','#2A59C9','#465347','#47141C','#BF822D','#DAC430','#DE1F21','#F75E42']},
